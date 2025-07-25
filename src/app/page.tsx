@@ -26,13 +26,13 @@ export default function Home() {
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <button className="rounded-full border border-solid px-4 py-2">
+          <button className="rounded-full border border-solid px-4 py-2 cursor-pointer hover:bg-gray-100">
             Create Wallet
           </button>
-          <button className="rounded-full border border-solid px-4 py-2">
+          <button className="rounded-full border border-solid px-4 py-2 cursor-pointer hover:bg-gray-100">
             Send Authorization
           </button>
-          <button className="rounded-full border border-solid px-4 py-2">
+          <button className="rounded-full border border-solid px-4 py-2 cursor-pointer hover:bg-gray-100">
             Send Batch Transaction
           </button>
         </div>
